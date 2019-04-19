@@ -1,0 +1,84 @@
+
+*{
+    box-sizing: border-box;
+}
+ 
+ body{
+        background-color: blueviolet
+    }
+
+
+.content {
+    text-align: center;
+    margin: 5%; 
+}
+
+.bio-text{
+        color: rgb(246, 250, 4); 
+        background-color: rgb(173, 21, 173);
+        font-size: 3rem;
+        border-radius: 10px; 
+        width: 60%;
+        display: inline-block;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+
+    .image-section {
+        display: inline-block;
+    }
+
+    .image-text{
+        display: inline-block;
+        vertical-align: middle;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        width: 15%;
+
+    }
+
+    .pic1{
+          vertical-align: middle;
+          align-self: center;
+          width: 25%;
+          margin-right: 2%;
+          border-radius: 5%;
+          transition: 450ms;
+      }
+
+
+    .pic-narrow{
+        
+        height: 25rem; 
+        margin-right: 10%;
+        border-radius: 5%;
+        transition: 700ms; 
+    }
+
+    .image-section-narrow{
+        margin: 0 15rem; 
+        
+    }
+
+    .pic-narrow:hover{
+        height: 40rem; 
+        border: 2px solid white; 
+        transition: 700ms;
+    }
+
+     .last{
+         margin-top: 1rem; 
+         padding: 5px; 
+     } 
+
+     .first{
+         margin-right: 7rem; 
+     }
+
+    .pic1:hover {
+        transition: 450ms;
+        width: 35%; 
+        border: 2px solid white; 
+    }
+
+   

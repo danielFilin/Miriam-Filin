@@ -1,0 +1,162 @@
+
+.head-tag {
+    text-align: center;
+    color: rgb(15, 17, 170);
+    background-color: rgb(197, 233, 215);
+    padding:  2rem; 
+    margin-bottom: 0;
+    
+}
+
+.secondary-title{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 6rem; 
+    margin-top: 0; 
+    color: rgb(231, 10, 176);
+    font-weight: 800; 
+}
+
+.background {
+   
+    background-image: url(main-photos/IMG_0500.JPG);
+    background-size: cover;
+    padding: 2rem;
+    position: relative;
+    border: 1rem solid darkmagenta
+
+}
+
+.bio-text-a:hover{
+    color: rgb(243, 243, 6)
+}
+
+.bio-text:hover{
+    color: rgb(76, 58, 134);
+}
+
+.bio-text-a{
+    display: inline-block;
+    color:white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 30%;
+    position: relative;
+    font-family: 'Mali', cursive;
+    display: block; 
+}
+.bio-text {
+    display: inline-block;
+    color: orangered; 
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 35%;
+    font-family: 'Mali', cursive;
+    display: block;
+    margin-left: 43rem;
+   
+
+}
+
+.background2{
+    background-image: url(main-photos/IMG_0478.JPG);
+    background-size: 1400px;
+    padding: 2rem;
+    position: relative;
+    border: 1rem solid darkmagenta
+
+}
+
+.background2 h2{
+    font-size: 2rem; 
+    font-weight: bold;
+    text-decoration: underline;
+    color: white; 
+
+}
+
+.basic-info{
+    font-size: 20px;
+    color: black;
+  
+    width: 51%;
+    font-weight: 400
+
+}
+
+ .basic-info__item{
+  margin-bottom: 1.8rem;
+  font-size: 1.5rem;
+  width: 65%;
+  transition: 1300ms;
+ }
+
+.basic-info__item:hover{
+    color: yellow;
+    cursor: pointer;
+    border: 3px dotted purple; 
+    transition: 200ms;
+}
+
+.info-box{
+    display: inline-block;
+    margin-left: 4rem; 
+}
+
+.info-box a{
+    font-size: 1.5rem; 
+    background-color: lightsalmon; 
+    border-radius: 50%; 
+    cursor: pointer;
+    text-decoration: none; 
+    font-weight: 900;
+}
+
+
+.main-bottom {
+    background-color: purple;
+}
+
+.main-bottom :hover {
+    border-color: yellow; 
+}
+
+.main-page__info{
+    width: 28%;
+    background-color: rgb(197, 233, 215);
+    display: inline-block;
+    vertical-align: middle;
+   
+    text-align: center;
+    color: rgb(161, 26, 66);
+    padding: 1rem;
+    margin: 0 1.5rem; 
+    border: 10px solid white; 
+}
+
+
+
+.main-page__info a:hover{
+    color: rgb(100, 100, 5); 
+    background-color: white;
+}
+
+ .main-page__info-text{
+     color: purple;
+     font-weight: 600;
+
+ }
+
+ #sub-header__info{
+     margin-top: 200px;
+     margin-bottom: 50px;
+     color: darkorange;
+     font-size: 30px;
+     text-align: center;
+     background-color: white; 
+     border-radius: 15%; 
+ }
+
+ 
+ 
+ 

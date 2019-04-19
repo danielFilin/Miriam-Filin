@@ -1,0 +1,102 @@
+.facts-list{
+    background-image: url(../IMG_0478.JPG);
+    background-size: cover;
+    
+}
+
+.facts{
+    padding: 1.5rem;
+    font-size: 3rem;
+    margin-top: 3rem;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    color: rgb(201, 43, 43);
+}
+
+.boxes{
+    display: inline-block; 
+    position: relative; 
+}
+
+.colored img{
+    position: relative;
+    float: left;
+    width: 12%;
+    transition: 750ms;
+}
+.num img{
+    margin-right: -3rem; 
+}
+
+
+.colored img:hover{
+  z-index: 1;
+  width: 36%;
+  transition: 750ms;
+  margin-right: 3rem;
+}
+
+.block{
+    display: block; 
+    height: 18rem; 
+}
+
+.photo-box{
+    display: inline-block;
+    position: relative;
+    padding: 2rem;
+    color: purple;
+    
+}
+
+.photo-box p{
+    display: inline-block;
+    background: yellow;
+    font-size: 1.3rem;
+    font-weight: bold; 
+    border-radius: 50%;
+}
+
+.family{
+    position: relative;
+    width: 35%; 
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 1rem;
+}
+
+    .photo-single-box{
+        padding: 5%;
+        align-items: center; 
+        display: flex;
+    }
+
+    .single-photos{
+        width: 45%;
+        border-radius: 33%;
+        margin: 0 2%;
+        align-self: right;
+
+    }
+    .photo-single-text{
+        font-size: 2rem;
+        color: purple;
+        vertical-align: middle;
+    }
+
+ .linear-gredient{
+     text-align: center;
+     font-size: 45px;
+     color: white;
+     height: 300px;
+     background-image: linear-gradient(90deg, green 25%, yellow 40%, blue, orange);
+ }
+
+  .radial-gredient{
+      height: 600px; 
+      background-image: radial-gradient(black, green, blue, yellow, white)
+  }
+
+

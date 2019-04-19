@@ -1,0 +1,25 @@
+
+ body{
+    margin: 0; 
+}
+
+
+   .main-events{
+       margin: 0;
+       background-color: rgb(179, 138, 179);
+       text-align: center;
+       padding: 4rem; 
+   }
+
+   .main-events-heading{
+        color: rgb(33, 218, 178);
+        font-size: 3.5rem;
+   }
+
+   .events-general-text{
+       font-size: 1.5rem; 
+       line-height: 1.9rem; 
+       text-align: left;
+       font-weight: 600;
+       color: rgb(5, 23, 24); 
+   }

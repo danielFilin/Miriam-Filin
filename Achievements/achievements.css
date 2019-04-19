@@ -1,0 +1,138 @@
+ 
+ .background{
+     background-image: url('Miri\ asleep.jpeg');
+     background-size: cover;
+     background-position: 0% 60%;
+     position: fixed; 
+     height: 100%;
+     width: 100%;
+     z-index: -1;
+     opacity: 0.8;
+ }
+
+ .info-box{
+    border: 3px solid yellow; 
+    margin: 8rem; 
+    position: relative;
+ }
+
+ .info-box-title{
+     position: absolute;
+     color: greenyellow;
+     background-color: rgba(128, 131, 128, 0.9);
+     left: 20%; 
+     border-radius: 5%;
+     font-size: 3rem; 
+ }
+ 
+ #prize{
+text-align: center;
+padding: 35px;
+background-color: gold
+ }
+
+ .list-items{
+  margin: 10% 10%;border-radius: 5%;
+ }
+
+ .list-item{
+    line-height: 2.2rem; 
+    font-size: 1.4rem;
+    width: 60%;
+    color: white;
+    font-weight: 600; 
+ }
+
+ .manager{
+     padding: 7%;
+     background-color: rgb(134, 52, 134);
+ }
+
+ .manager{
+   display: inline-block;
+ }
+
+ .myClass_text{
+     width: 20%;
+     display: inline-block;
+     font-size: 2rem;
+     font-weight: bold;
+     vertical-align: middle;
+ }
+
+ .myBtn{
+background:    #00ffff;
+background:    linear-gradient(#00ffff, #073763);
+border-radius: 6px;
+padding:       8px 20px;
+color:         #ffffff;
+display:       inline-block;
+font:          normal bold 24px/1 "Calibri", sans-serif;
+text-align:    center;
+text-shadow:   1px 1px #000000;
+ }
+
+ .enjoy-input {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 10px 20px;
+    border: 1px solid #b7b7b7;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font: normal medium/normal Arial, Helvetica, sans-serif;
+    color: rgba(0,142,198,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: rgba(252,252,252,1);
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    width: 40%;
+    margin: 0 3%;
+  }
+  
+  .enjoy-input:hover {
+    border: 1px solid #a3a3a3;
+    background: rgba(255,255,255,1);
+    -webkit-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
+  }
+  
+  .enjoy-input:focus {
+    border: 1px solid #018dc4;
+    -webkit-box-shadow: 4px 4px 4px 0 rgba(0,0,0,0.2) inset;
+    box-shadow: 4px 4px 4px 0 rgba(0,0,0,0.2) inset;
+    -webkit-transition: all 50ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 50ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 50ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 50ms cubic-bezier(0.42, 0, 0.58, 1);
+  }
+
+  .generatedEl{
+      width: 30%; 
+      vertical-align: middle;
+  }
+
+  .css-input {
+    padding: 5px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 0px;
+    box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+.css-input:focus {
+    outline:none;
+}
