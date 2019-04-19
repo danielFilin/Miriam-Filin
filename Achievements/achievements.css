@@ -52,6 +52,10 @@ background-color: gold
    display: inline-block;
  }
 
+ .myClass{
+   position: relative;
+ }
+
  .myClass_text{
      width: 20%;
      display: inline-block;
@@ -73,6 +77,8 @@ text-shadow:   1px 1px #000000;
  }
 
  .enjoy-input {
+    position: relative;
+    top: -4px;
     display: inline-block;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;

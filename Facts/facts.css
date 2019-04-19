@@ -75,6 +75,7 @@
 
     .single-photos{
         width: 45%;
+        max-width: 500px; 
         border-radius: 33%;
         margin: 0 2%;
         align-self: right;
