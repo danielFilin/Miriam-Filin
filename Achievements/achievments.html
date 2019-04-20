@@ -13,7 +13,7 @@
 <body>
         <header class="main-header">
                 <nav class="main-nav">
-                    <a class="main-page-nav" href="../main.html">Главная Страница</a>
+                    <a class="main-page-nav" href="../index.html">Главная Страница</a>
                     <a class="main-nav__item" href="../Memories/memories.html">Воспоминания</a>
                     <a class="main-nav__item" href="../Events/events.html">События</a>
                     <a class="main-nav__item active" href="achievments.html">Достижения</a>
@@ -39,25 +39,37 @@
             <li class="list-item">В тоже самое время она научилась подниматься, держась за нечто, например за папины штаны</li>
         </ul>
              </div>
-    <section class="manager">
-           
-            <h3>Using CSS to style an HTML Form</h3>
-
-            <div class="upload-box">
-              <form action="/action_page.php">
-                <label for="fname">Insert your text here</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                <label for="country">Upload your file</label>
+   
+        
+    <div class="container upload-section">
+        <div class="row-xl-12">
+            <form class="photo-upload-form">
                 <div class="form-group">
-                        <label for="exampleFormControlFile1">Example file input</label>
-                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
-                      </div>
-                <input type="submit" value="Submit">
+                  <label for="title">Название Фото</label>
+                  <input type="text" class="form-control" id="photo-title">
+                  <label for="description">Добавьте описание</label>
+                  <textarea class="form-control" rows="5" id="comment"></textarea>
+                  <small id="text-help" class="form-text text-muted">Попытайтесь придать фотографии дополнительный смысл, при помощи своего описания</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Место фотографии</label>
+                  <input type="text" class="form-control" id="place" placeholder="Где-то далеко!">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Введите название фотографию</label>
+                    <input type="text" class="form-control" id="file-name" accept="image/*">
+                  </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
               </form>
-            </div>
-         
-    </section>
+        </div>
+    </div>    
 
+
+    <div class="container card-size">
+        <div class="col-xl-12 photo-container">
+
+        </div>
+    </div>
 
 
 </body>
