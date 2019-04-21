@@ -80,6 +80,10 @@
     vertical-align: middle;
 }
 
+.myWidth{
+    width: 100;
+}
+
 @media (min-width: 40rem) {
     .boxes{
         display: inline-block; 
@@ -100,7 +104,7 @@
     .colored img{
         position: relative;
         float: left;
-        width: 12%;
+        width: 15%;
         transition: 750ms;
     }
 
@@ -116,7 +120,6 @@
         position: relative;
         padding: 2rem;
         color: purple;
-        
     }
     
     .photo-box p{
@@ -125,14 +128,15 @@
         font-size: 1.3rem;
         font-weight: bold; 
         border-radius: 50%;
+        margin: 0 2%;
     }
 
     .family{
     position: relative;
-    width: 35%; 
+    width: 25%; 
     display: inline-block;
     vertical-align: middle;
-    margin: 0 1rem;
+    margin: 0;
     }
   
     .num img{
@@ -157,6 +161,10 @@
     color: purple;
     vertical-align: middle;
 }
+
+.myWidth{
+    width: 100;
+}
     
 }
 
@@ -165,22 +173,4 @@
     display: block; 
     height: 18rem; 
 }
-
-
-
- 
-
- .linear-gredient{
-     text-align: center;
-     font-size: 45px;
-     color: white;
-     height: 300px;
-     background-image: linear-gradient(90deg, green 25%, yellow 40%, blue, orange);
- }
-
-  .radial-gredient{
-      height: 600px; 
-      background-image: radial-gradient(black, green, blue, yellow, white)
-  }
-
 

@@ -35,44 +35,45 @@
         у неё имеются два гражданства и два иностранных паспорта.
     </p>
     <br><br><br>
-    <div class="boxes">
-            <div class="colored">
-                <img src="./photos/13-18 (2).jpeg" alt="">
-            </div>
-            <div class="colored num">
-                    <img src="./photos/13-18 (2).jpg" alt="">
-            </div>
-            <div class="colored num">
-                <img src="./photos/13-18 (3).jpeg" alt="">
-            </div>
-            <div class="colored num">
-                    <img src="./photos/13-18 (4).jpeg" alt="">
-            </div>
-            <div class="colored num">
-                    <img src="./photos/facts1.JPG" alt="">
-            </div>
-            <div class="colored num">
-                    <img src="./photos/facts2.JPG" alt="">
-            </div>
-            <div class="block"></div>
-           
-            <div class="colored num">
-                    <img src="./photos/facts3.JPG" alt="">
-            </div>
-            <div class="colored num">
-                    <img src="./photos/facts4.JPG" alt="">
-            </div>
-            <div class="colored num">
-                    <img src="./photos/facts5.JPG" alt="">
-            </div>
+    <div class="container">
+        <div class="boxes">
+                <div class="colored">
+                    <img src="./photos/13-18 (2).jpeg" alt="">
+                </div>
+                <div class="colored num">
+                        <img src="./photos/13-18 (2).jpg" alt="">
+                </div>
+                <div class="colored num">
+                    <img src="./photos/13-18 (3).jpeg" alt="">
+                </div>
+                <div class="colored num">
+                        <img src="./photos/13-18 (4).jpeg" alt="">
+                </div>
+                <div class="colored num">
+                        <img src="./photos/facts1.JPG" alt="">
+                </div>
+                <div class="colored num">
+                        <img src="./photos/facts2.JPG" alt="">
+                </div>
+                <div class="block"></div>
+               
+                <div class="colored num">
+                        <img src="./photos/facts3.JPG" alt="">
+                </div>
+                <div class="colored num">
+                        <img src="./photos/facts4.JPG" alt="">
+                </div>
+                <div class="colored num">
+                        <img src="./photos/facts5.JPG" alt="">
+                </div>
+        </div>  
     </div>
+   
     <br>
-   <div class="box">
-</div>
+
     
 
-<p  class="facts">Мирик имеет всего двух родителей, 
-    зато у неё есть два дедушки и две бабушки</p>
+        <p class="facts">Мирик имеет всего двух родителей, зато у неё есть два дедушки и две бабушки</p>
     <div class="photo-box">
             <p>Дедушка Миша</p>
             <img class="family" src="./photos/IMG-20180903-WA0015.jpg">
@@ -100,17 +101,24 @@
     <div class="facts-list">
      
     
-   
-    <p  class="facts">Мирик может спать при любом шуме</p>
-    <p class="facts">Когда Мирик был ещё крохотным ребёнком, он отказывался от груди, отдавая
-        предпочтение молоку из бутылки. При этом, всё что она съедала аккуратно записывалось
-        в дневник.
-    </p>
+   <div class="container">   
+                <p class="facts">Мирик может спать при любом шуме</p>
+                <p class="facts">Когда Мирик был ещё крохотным ребёнком, он отказывался от груди, отдавая предпочтение молоку из бутылки. При этом, всё что она съедала аккуратно записывалось в дневник.
+                </p>  
+   </div>
+ 
   
 </div>
-    <h3>Если вы желаете добавить новые интересные факты, вы можете сделать это здесь!</h3>
-    <input type="text" placeholder="Пишите прямо здесь" id="input-facts">
-    <button class="btn btn-primary">Добавить</button>
+<div class="container">
+                <h3 class="w-50">Если вы желаете добавить новые интересные факты, вы можете сделать это здесь!</h3>
+                <textarea class="form-control myWidth" cols="30" rows="10"></textarea>
+                
+                <button class="btn btn-primary mt-3" id="new-fact">Добавить</button>
+                <ul class="userText">
+                       
+                </ul>
+</div>
+   
 
     <div class="linear-gredient">Отличные идеи приходят по ночам!</div>
     <div class="radial-gredient">Новая ночь, новые начинания!</div>
@@ -118,4 +126,5 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="facts.js"></script>
 </html>
