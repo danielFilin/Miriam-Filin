@@ -62,15 +62,13 @@ padding: 1.5rem 0;
 
      .info-box{
       border: 3px solid yellow; 
-      margin: 8rem; 
+      margin: 3% 12%;
       position: relative;
    }
 
    .info-box-title{
-    position: absolute;
     color: greenyellow;
     background-color: rgba(128, 131, 128, 0.9);
-    left: 20%; 
     border-radius: 5%;
     font-size: 3rem; 
 }

@@ -120,6 +120,15 @@
     .background-first {
         background-image: url(main-photos/IMG_0500.JPG);
         background-size: cover;
+        height: 800px;
+    }
+
+    .background-second{
+        background-image: url(main-photos/miri-redhat-big.jpeg);
+        background-size: cover;
+        padding: 2rem;
+        position: relative;
+        border: 1rem solid darkmagenta
     }
 
     .bio-text-a{
