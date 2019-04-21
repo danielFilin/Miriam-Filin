@@ -1,8 +1,4 @@
-.facts-list{
-    background-image: url(../IMG_0478.JPG);
-    background-size: cover;
-    
-}
+
 
 .facts{
     padding: 1.5rem;
@@ -14,6 +10,16 @@
     text-align: center;
     color: rgb(201, 43, 43);
 }
+
+ .another-fact{
+    text-align: center;
+    color: rgb(201, 43, 43);
+    padding: 1.5rem;
+    font-size: 2rem;
+    margin-top: 3rem;
+    font-weight: bold;
+}
+
 
 .boxes{
     display: inline-block; 
@@ -84,6 +90,10 @@
     width: 100;
 }
 
+.add-text{
+    width:100%;
+}
+
 @media (min-width: 40rem) {
     .boxes{
         display: inline-block; 
@@ -99,6 +109,15 @@
         vertical-align: middle;
         text-align: center;
         color: rgb(201, 43, 43);
+    }
+
+    .another-fact{
+        text-align: center;
+        color: rgb(201, 43, 43);
+        padding: 1.5rem;
+        font-size: 3rem;
+        margin-top: 3rem;
+        font-weight: bold;
     }
 
     .colored img{
