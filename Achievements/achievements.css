@@ -52,7 +52,6 @@ padding: 1.5rem 0;
      .background{
       background-image: url('Miri\ asleep.jpeg');
       background-size: cover;
-      background-position: 0% 60%;
       position: fixed; 
       height: 100%;
       width: 100%;
