@@ -1,6 +1,6 @@
  
  .background{
-     background-image: url('Miri\ asleep.jpeg');
+     background-image: url('miri-asleep-small.jpg');
      background-size: cover;
      background-position: 0% 60%;
      position: fixed; 
@@ -48,6 +48,17 @@ padding: 1.5rem 0;
     background-color: gold;
     
      }
+
+     .background{
+      background-image: url('Miri\ asleep.jpeg');
+      background-size: cover;
+      background-position: 0% 60%;
+      position: fixed; 
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+      opacity: 0.8;
+  }
 
      .info-box{
       border: 3px solid yellow; 

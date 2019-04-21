@@ -1,9 +1,10 @@
 
-.background {
+.background-first {
     background-image: url(main-photos/miri-small.jpg);
     padding: 2rem;
     position: relative;
-    border: 1rem solid darkmagenta
+    border: 1rem solid darkmagenta;
+    background-size: cover;
 }
 
 .head-tag {
@@ -42,6 +43,14 @@
     font-weight: bold;
     width: 45%;
     font-family: 'Mali', cursive;
+}
+
+.background-second{
+    background-image: url(main-photos/miri-redhat-small.jpeg);
+    background-size: cover;
+    padding: 2rem;
+    position: relative;
+    border: 1rem solid darkmagenta
 }
 
 
@@ -108,7 +117,7 @@
 
 
 @media (min-width: 40rem) {
-    .background {
+    .background-first {
         background-image: url(main-photos/IMG_0500.JPG);
         background-size: cover;
     }
