@@ -69,5 +69,6 @@ document.querySelector('.photo-upload-form').addEventListener('submit', (e) =>{
     cardBody.appendChild(photoPlace);
 
     document.querySelector('.photo-container').appendChild(body);
-    
+
+
 })
