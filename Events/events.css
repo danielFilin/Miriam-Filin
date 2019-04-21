@@ -13,13 +13,28 @@
 
    .main-events-heading{
         color: rgb(33, 218, 178);
+        font-size: 2.5rem;
+   }
+
+   .events-general-text{
+       font-size: 1.2rem; 
+       line-height: 1.6rem; 
+       text-align: left;
+       font-weight: 600;
+       color: rgb(5, 23, 24); 
+   }
+
+   @media (min-width: 40rem) {
+    .main-events-heading{
+        color: rgb(33, 218, 178);
         font-size: 3.5rem;
    }
 
    .events-general-text{
-       font-size: 1.5rem; 
-       line-height: 1.9rem; 
-       text-align: left;
-       font-weight: 600;
-       color: rgb(5, 23, 24); 
+    font-size: 1.5rem; 
+    line-height: 1.9rem; 
+    text-align: left;
+    font-weight: 600;
+    color: rgb(5, 23, 24); 
+}
    }

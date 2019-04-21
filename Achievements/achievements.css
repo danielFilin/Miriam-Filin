@@ -12,26 +12,59 @@
 
  .info-box{
     border: 3px solid yellow; 
-    margin: 8rem; 
     position: relative;
  }
 
  .info-box-title{
-     position: absolute;
-     color: greenyellow;
-     background-color: rgba(128, 131, 128, 0.9);
-     left: 20%; 
-     border-radius: 5%;
+     position: relative;
+     color: white;
+     background-color:  greenyellow;
+     border-radius: 15%;
      font-size: 3rem; 
+     padding: 1rem;
+     margin: 5%;
  }
  
  #prize{
 text-align: center;
-padding: 35px;
-background-color: gold
+background-color: gold;
+padding: 1.5rem 0;
  }
 
- .list-items{
+ 
+ .list-item{
+  line-height: 2.2rem; 
+  font-size: 1.4rem;
+  width: 80%;
+  color: white;
+  font-weight: 600; 
+}
+
+
+ @media (min-width: 40rem) {
+  #prize{
+    text-align: center;
+    margin-top: 3rem;
+    background-color: gold;
+    
+     }
+
+     .info-box{
+      border: 3px solid yellow; 
+      margin: 8rem; 
+      position: relative;
+   }
+
+   .info-box-title{
+    position: absolute;
+    color: greenyellow;
+    background-color: rgba(128, 131, 128, 0.9);
+    left: 20%; 
+    border-radius: 5%;
+    font-size: 3rem; 
+}
+
+  .list-items{
   margin: 10% 10%;border-radius: 5%;
  }
 
@@ -41,6 +74,7 @@ background-color: gold
     width: 60%;
     color: white;
     font-weight: 600; 
+ }
  }
 
  .upload-section{
@@ -69,7 +103,6 @@ background-color: gold
  .card-place{
    display: inline-block;
    width: 50%;
-   
  }
 
  h4{

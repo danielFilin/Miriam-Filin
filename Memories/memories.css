@@ -7,6 +7,10 @@
         background-color: blueviolet
     }
 
+.purple{
+    background-color: rgb(160, 100, 216);
+    padding: 0;
+}
 
 .content {
     text-align: center;
@@ -30,8 +34,7 @@
 
     .image-text{
         display: block;
-        vertical-align: middle;
-        color: white;
+        color: blue;
         font-size: 1.5rem;
         font-weight: bold;
         width: 85;
@@ -90,7 +93,7 @@
             display: inline-block;
             vertical-align: middle;
             color: white;
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             font-weight: bold;
             width: 15%;
         }
@@ -138,7 +141,6 @@
          margin-right: 7rem; 
      }
 
-    
 
     }
 

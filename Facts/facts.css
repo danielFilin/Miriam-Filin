@@ -6,7 +6,7 @@
 
 .facts{
     padding: 1.5rem;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 3rem;
     font-weight: bold;
     display: inline-block;
@@ -23,28 +23,19 @@
 .colored img{
     position: relative;
     float: left;
-    width: 12%;
+    width: 66%;
     transition: 750ms;
 }
-.num img{
-    margin-right: -3rem; 
-}
-
 
 .colored img:hover{
-  z-index: 1;
-  width: 36%;
-  transition: 750ms;
-  margin-right: 3rem;
-}
+    z-index: 1;
+    width: 100%;
+    transition: 750ms;
+    margin-right: 3rem;
+  }
 
-.block{
-    display: block; 
-    height: 18rem; 
-}
-
-.photo-box{
-    display: inline-block;
+  .photo-box{
+    display: block;
     position: relative;
     padding: 2rem;
     color: purple;
@@ -52,40 +43,132 @@
 }
 
 .photo-box p{
-    display: inline-block;
+    display: block;
+    margin: 5% 10%;
     background: yellow;
     font-size: 1.3rem;
     font-weight: bold; 
     border-radius: 50%;
+    text-align: center;
 }
 
 .family{
+    position: relative;
+    width: 85%; 
+  
+    vertical-align: middle;
+}
+
+
+.photo-single-box{
+    padding: 5%;
+    align-items: center; 
+    display: flex;
+}
+
+.single-photos{
+    width: 45%;
+    max-width: 500px; 
+    border-radius: 33%;
+    margin: 0 2%;
+    align-self: right;
+
+}
+.photo-single-text{
+    font-size: 1.2rem;
+    color: purple;
+    vertical-align: middle;
+}
+
+@media (min-width: 40rem) {
+    .boxes{
+        display: inline-block; 
+        position: relative; 
+    }
+
+    .facts{
+        padding: 1.5rem;
+        font-size: 3rem;
+        margin-top: 3rem;
+        font-weight: bold;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        color: rgb(201, 43, 43);
+    }
+
+    .colored img{
+        position: relative;
+        float: left;
+        width: 12%;
+        transition: 750ms;
+    }
+
+    .colored img:hover{
+        z-index: 1;
+        width: 36%;
+        transition: 750ms;
+        margin-right: 3rem;
+      }
+
+      .photo-box{
+        display: inline-block;
+        position: relative;
+        padding: 2rem;
+        color: purple;
+        
+    }
+    
+    .photo-box p{
+        display: inline-block;
+        background: yellow;
+        font-size: 1.3rem;
+        font-weight: bold; 
+        border-radius: 50%;
+    }
+
+    .family{
     position: relative;
     width: 35%; 
     display: inline-block;
     vertical-align: middle;
     margin: 0 1rem;
+    }
+  
+    .num img{
+    margin-right: -3rem; 
+}
+.photo-single-box{
+    padding: 5%;
+    align-items: center; 
+    display: flex;
 }
 
-    .photo-single-box{
-        padding: 5%;
-        align-items: center; 
-        display: flex;
-    }
+.single-photos{
+    width: 45%;
+    max-width: 500px; 
+    border-radius: 33%;
+    margin: 0 2%;
+    align-self: right;
 
-    .single-photos{
-        width: 45%;
-        max-width: 500px; 
-        border-radius: 33%;
-        margin: 0 2%;
-        align-self: right;
+}
+.photo-single-text{
+    font-size: 2rem;
+    color: purple;
+    vertical-align: middle;
+}
+    
+}
 
-    }
-    .photo-single-text{
-        font-size: 2rem;
-        color: purple;
-        vertical-align: middle;
-    }
+
+.block{
+    display: block; 
+    height: 18rem; 
+}
+
+
+
+ 
 
  .linear-gredient{
      text-align: center;
