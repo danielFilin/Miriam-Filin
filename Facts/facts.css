@@ -1,4 +1,6 @@
-
+ body{
+    background-color: rgb(170, 129, 209);
+}
 
 .facts{
     padding: 1.5rem;

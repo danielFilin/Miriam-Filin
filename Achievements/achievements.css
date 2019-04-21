@@ -67,9 +67,12 @@ padding: 1.5rem 0;
 
    .info-box-title{
     color: greenyellow;
-    background-color: rgba(128, 131, 128, 0.9);
+    background-color: rgba(128, 131, 128, 0.7);
     border-radius: 5%;
     font-size: 3rem; 
+    text-align: center;
+    width: 55%;
+    
 }
 
   .list-items{
